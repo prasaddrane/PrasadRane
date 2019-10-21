@@ -2,5 +2,14 @@ student_number = ['00000020', '00000021', '00000025', '00000028', '00000027']
 student_name = ['Prasad', 'Akash', 'Paul', 'Abhishek', 'Saurabh']
 student_course_code = ['CSITMSC', 'CSITDIP', 'CSBAMSC', 'CSBADIP']
 
-student_number.sort()
+#student_number.sort()
 #print(student_number)
+
+def register_student(self_number,student,course):
+    student_number.sort()
+    student_number.append(self_number)
+    student_name.append(student)
+    student_course_code.append(course)
+    
+def retrive(self_number):
+    student_number.sort()
