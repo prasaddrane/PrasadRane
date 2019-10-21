@@ -9,6 +9,23 @@ print(student_data)
 
 
 
-#def register_student(self_number,student,course):
-bisect.insort(student_data,('00000024', 'Bharat', 'CSMBATIY'))
-print(student_data)
+def register_student(self_number,student,course):
+    bisect.insort(student_data,('self_number', 'student', 'course'))
+    print(student_data)
+    
+def retrive():
+    student_data.sort()
+    print(student_data[0])
+   
+    
+
+
+
+
+
+
+
+    
+
+
+
