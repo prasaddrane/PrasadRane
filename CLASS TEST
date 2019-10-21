@@ -1,22 +1,14 @@
 import bisect
-student_data = [(00000020,'Prasad', 'CSITMSC'), (00000021,'Akash', 'CSITDIP'), (00000025,'Paul', 'CSBAMSC'), (00000028, 'Abhishek', 'CSBADIP'), (00000027, 'Saurabh', 'CSBADIP')]
+student_data = [('00000020','Prasad', 'CSITMSC'), ('00000021','Akash', 'CSITDIP'), ('00000025','Paul', 'CSBAMSC'), ('00000028', 'Abhishek', 'CSBADIP'), ('00000027', 'Saurabh', 'CSBADIP')]
 #student_name = ['Prasad', 'Akash', 'Paul', 'Abhishek', 'Saurabh']
 #student_course_code = ['CSITMSC', 'CSITDIP', 'CSBAMSC', 'CSBADIP']
 
 #student_number.sort()
 #print(student_number)
-print(student_number.min())
-
-def register_student(self_number,student,course):
-    student_number.sort()
-    student_number.append(self_number)
-    student_name.append(student)
-    student_course_code.append(course)
-    
-def retrive():
-    student_number.sort()
-    print(student_number.min())
-    
+print(student_data)
 
 
 
+#def register_student(self_number,student,course):
+bisect.insort(student_data,('00000024', 'Bharat', 'CSMBATIY'))
+print(student_data)
